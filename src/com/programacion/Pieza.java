@@ -1,11 +1,11 @@
 package com.programacion;
 
-public class Piezas {
+public class Pieza {
 
 
     //Declaramos matriz
     int [][] coordenada;
-    Tile tl;
+    Tile tile;
 
 
         public void rotar()
@@ -13,7 +13,7 @@ public class Piezas {
             // Rotamos a peza
             for(var coordenada: coordenada) {
                 coordenada [0]=-coordenada[1];
-                coordenada [1]=coordenada[0]
+                coordenada [1]=coordenada[0];
             }
 
 
@@ -22,4 +22,4 @@ public class Piezas {
 
     }
 
-}
+
