@@ -7,8 +7,12 @@ public class Pieza {
     int [][] coordenada;
     Tile tile;
 
+    public Pieza(int[][] coordenada, Tile tile) {
+        this.coordenada = coordenada;
+        this.tile = tile;
+    }
 
-        public void rotar()
+    public void rotar()
         {
             // Rotamos a peza
             for(var coordenada: coordenada) {
