@@ -19,8 +19,8 @@ public class PiezaFactory {
        S (plantilla_de_coordenadas[2], new Tile(new Color(8, 147, 11))),
        Cuadrado (plantilla_de_coordenadas[3], new Tile(new Color(229, 0, 230))),
        Linea (plantilla_de_coordenadas[4], new Tile(new Color(0, 232, 236))),
-       Z (plantilla_de_coordenadas[5], new Tile(new Color((226, 214, 0))),
-       T (plantilla_de_coordenadas[6], new Tile(new Color((0, 0, 0))),
+       Z (plantilla_de_coordenadas[5], new Tile(new Color(226, 214, 0))),
+       T (plantilla_de_coordenadas[6], new Tile(new Color(0, 0, 0))),
        ;
         int [][] coordenadas;
         Tile tile;
@@ -64,31 +64,29 @@ public class PiezaFactory {
         /**Switch para darlle forma as pezas*/
          switch (criteria) {
             case 0:
-                return new Pieza(tipoPiezas.L.coordenadas, tipoPiezas.L.tile);
+            return new Pieza(tipoPiezas.L.coordenadas, tipoPiezas.L.tile);
                 break;
             case 1:
-                return new Pieza(tipoPiezas.L_Inverso.coordenadas, tipoPiezas.L_Inverso.tile);
+               return new Pieza(tipoPiezas.L_Inverso.coordenadas, tipoPiezas.L_Inverso.tile);
                 break;
             case 2:
-                return new Pieza(tipoPiezas.S.coordenadas, tipoPiezas.S.tile);
+               return new Pieza(tipoPiezas.S.coordenadas, tipoPiezas.S.tile);
                 break;
             case 3:
                 return new Pieza(tipoPiezas.Cuadrado.coordenadas, tipoPiezas.Cuadrado.tile);
                 break;
             case 4:
-                return new Pieza(tipoPiezas.Linea.coordenadas, tipoPiezas.Linea.tile);
+               return new Pieza(tipoPiezas.Linea.coordenadas, tipoPiezas.Linea.tile);
                 break;
              case 5:
                  return new Pieza(tipoPiezas.Z.coordenadas, tipoPiezas.Z.tile);
                 break;
             case 6:
-                return new Pieza(tipoPiezas.T.coordenadas, tipoPiezas.T.tile);
+               return new Pieza(tipoPiezas.T.coordenadas, tipoPiezas.T.tile);
                 break;
+             default:
+
 
         }
-
-        {
-
-    }
-}
+return null;}
 }
