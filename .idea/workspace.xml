@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Crear Jpanel">
+    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Seguir con Jpanel">
+      <change afterPath="$PROJECT_DIR$/src/com/programacion/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/programacion/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programacion/Pieza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Pieza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programacion/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programacion/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Tetris.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615978909372</updated>
       <workItem from="1615978913009" duration="5488000" />
-      <workItem from="1616348521181" duration="6802000" />
+      <workItem from="1616348521181" duration="13789000" />
     </task>
     <task id="LOCAL-00001" summary="Crear clase Tablero">
       <created>1615981376398</created>
@@ -156,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616353802124</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Seguir con Jpanel">
+      <created>1616355700103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616355700103</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +204,7 @@
     <MESSAGE value="Colocar pieza y colisionar pieza" />
     <MESSAGE value="Crear constructor y metodos moverPosiciones y comprobarLinea" />
     <MESSAGE value="Crear Jpanel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crear Jpanel" />
+    <MESSAGE value="Seguir con Jpanel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seguir con Jpanel" />
   </component>
 </project>

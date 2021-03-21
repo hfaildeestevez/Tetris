@@ -12,18 +12,31 @@ public class Pieza {
         this.tile = tile;
     }
 
-    public void rotar()
-        {
+    public void rotar(){
             // Rotamos a peza
             for(var coordenada: coordenada) {
                 coordenada [0]=-coordenada[1];
                 coordenada [1]=coordenada[0];
             }
-
-
-        }
-
-
     }
+    public void moverAbajo(){
+        for (var coordenada:coordenada){
+            coordenada[1]++;
+        }
+    }
+
+    public void moverDerecha(){
+        for (var coordenada:coordenada){
+            coordenada[0]++;
+        }
+    }
+
+    public void moverIzquierda(){
+        for (var coordenada:coordenada){
+            coordenada[0]--;
+        }
+    }
+
+}
 
 
