@@ -17,15 +17,21 @@ public class Tablero {
         puntuacion = 0;
         campo = new Tile[10][20];
         try {
-            pieza = PiezaFactory.getPieza(generadorAleatorio.nextInt(6));
-            pieza.moverDerecha();
-            pieza.moverDerecha();
-            pieza.moverDerecha();
-            pieza.moverDerecha();
+            generarNuevaPieza();
 
         } catch (Exception e) {
             System.out.println("A vuelto a avidar un eeror");
         }
+
+    }
+
+    private void generarNuevaPieza() {
+        try {
+            pieza = PiezaFactory.getPieza(generadorAleatorio.nextInt(6));
+        } catch (Exception e) {
+            System.out.println("Un error sin mas");
+        }
+        pieza.moverDerecha();
 
     }
 
@@ -35,18 +41,12 @@ public class Tablero {
             int y=coordenada[1];
             campo [x][y]=pieza.tile;
         }
-        try {
-            pieza = PiezaFactory.getPieza(generadorAleatorio.nextInt(6));
-        } catch (Exception e) {
-            System.out.println("A avido un eeror");
-        }
-
+        generarNuevaPieza();
     }
 
+
     private boolean colisionar (int x,int y){
-
-        return campo[x][y]!=null;
-
+        return x> campo.length-1 || y>campo[0].length-1  || campo[x][y] !=null;
     }
 
     private void comprobarLinea (){
@@ -72,6 +72,10 @@ public class Tablero {
     public void update (){
         if (!colisionarPieza(0,1)){
             pieza.moverAbajo();
+        }
+        else{
+            colocarPieza();
+            generarNuevaPieza();
         }
     }
 
