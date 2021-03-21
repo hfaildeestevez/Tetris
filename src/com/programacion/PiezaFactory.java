@@ -58,35 +58,26 @@ public class PiezaFactory {
 
 
 
-    public static Pieza getPieza(int criteria)
-    {
+    public static Pieza getPieza(int criteria) throws Exception {
         //Aqui chorei moito
         /**Switch para darlle forma as pezas*/
          switch (criteria) {
             case 0:
             return new Pieza(tipoPiezas.L.coordenadas, tipoPiezas.L.tile);
-                break;
             case 1:
                return new Pieza(tipoPiezas.L_Inverso.coordenadas, tipoPiezas.L_Inverso.tile);
-                break;
             case 2:
                return new Pieza(tipoPiezas.S.coordenadas, tipoPiezas.S.tile);
-                break;
             case 3:
                 return new Pieza(tipoPiezas.Cuadrado.coordenadas, tipoPiezas.Cuadrado.tile);
-                break;
             case 4:
                return new Pieza(tipoPiezas.Linea.coordenadas, tipoPiezas.Linea.tile);
-                break;
              case 5:
                  return new Pieza(tipoPiezas.Z.coordenadas, tipoPiezas.Z.tile);
-                break;
             case 6:
                return new Pieza(tipoPiezas.T.coordenadas, tipoPiezas.T.tile);
-                break;
              default:
-
-
+                 throw new Exception("valor no valido, el valor de la pieza debe estar entre 0 y 6");
         }
-return null;}
+    }
 }
