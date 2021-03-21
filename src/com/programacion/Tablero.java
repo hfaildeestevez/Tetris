@@ -16,6 +16,7 @@ public class Tablero {
         level = 0;
         gravedad = 1;
         puntuacion = 0;
+        campo = new Tile[10][20];
         try {
             pieza = PiezaFactory.getPieza(generadorAleatorio.nextInt(6));
         } catch (Exception e) {
