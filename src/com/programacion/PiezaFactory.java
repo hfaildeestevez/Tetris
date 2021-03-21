@@ -3,16 +3,7 @@ package com.programacion;
 import java.awt.*;
 
 public class PiezaFactory {
-   /* enum Figuras {
-        Sin_Forma,
-        L,
-        L_Inverso,
-        S,
-        Cuadrado,
-        Linea,
-        Z,
-        T
-    };*/
+
     enum tipoPiezas {
        L (plantilla_de_coordenadas[0], new Tile(new Color(20, 43, 147))),
        L_Inverso (plantilla_de_coordenadas[1], new Tile(new Color(194, 6, 9))),
@@ -31,7 +22,10 @@ public class PiezaFactory {
        }
    }
 
-   /**Plantilla de coordenadas para determinar as formas das pezas*/
+   /**
+    * Plantilla de coordenadas para determinar as formas das pezas
+    */
+
    private static final int[][][] plantilla_de_coordenadas = new int[][][] {
 
         // L
@@ -60,7 +54,10 @@ public class PiezaFactory {
 
     public static Pieza getPieza(int criteria) throws Exception {
         //Aqui chorei moito
-        /**Switch para darlle forma as pezas*/
+        /**
+         * Switch para darlle forma as pezas
+         */
+
          switch (criteria) {
             case 0:
             return new Pieza(tipoPiezas.L.coordenadas, tipoPiezas.L.tile);

@@ -1,9 +1,15 @@
 package com.programacion;
 
+import javax.swing.*;
+
 public class Tetris {
 
-
     public static void main(String[] args) {
-	// write your code here
+        JFrame frame = new JFrame("Tetris");
+        frame.setSize(640, 480);
+        frame.add(new Panel());
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
+
