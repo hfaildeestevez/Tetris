@@ -11,7 +11,7 @@ public class PiezaFactory {
        Cuadrado (plantilla_de_coordenadas[3], new Tile(new Color(229, 0, 230))),
        Linea (plantilla_de_coordenadas[4], new Tile(new Color(0, 232, 236))),
        Z (plantilla_de_coordenadas[5], new Tile(new Color(226, 214, 0))),
-       T (plantilla_de_coordenadas[6], new Tile(new Color(0, 0, 0))),
+       T (plantilla_de_coordenadas[6], new Tile(new Color(255, 62, 1))),
        ;
         int [][] coordenadas;
         Tile tile;

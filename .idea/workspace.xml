@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Muchos cambios,ya no me cuerdo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programacion/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programacion/PiezaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/PiezaFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +108,7 @@
       <updated>1615978909372</updated>
       <workItem from="1615978913009" duration="5488000" />
       <workItem from="1616348521181" duration="15550000" />
+      <workItem from="1616398681252" duration="3059000" />
     </task>
     <task id="LOCAL-00001" summary="Crear clase Tablero">
       <created>1615981376398</created>
