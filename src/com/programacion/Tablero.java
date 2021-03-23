@@ -73,6 +73,7 @@ public class Tablero {
             System.out.println(String.format("Fila %d movida a %d", i+1,i));
         }
         campo = transposeArray(nuevoCampo);
+        puntuacion++;
     }
 
     public void update() {
