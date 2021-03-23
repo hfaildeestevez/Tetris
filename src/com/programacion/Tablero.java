@@ -75,6 +75,7 @@ public class Tablero {
         }
         else{
             colocarPieza();
+            comprobarLinea();
             //generarNuevaPieza();
         }
     }
@@ -114,5 +115,7 @@ public class Tablero {
             pieza.moverAbajo();
         }
     }
+
+
 }
 

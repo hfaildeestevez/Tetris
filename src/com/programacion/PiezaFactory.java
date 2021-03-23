@@ -23,19 +23,13 @@ public class PiezaFactory {
        }
    }
 
-    public static int[][] copiarArray(int[][] original) {
-        int[][] nuevoArray = new int[original.length][original[0].length];
-        for (int i = 0; i < original.length; i++) {
-            nuevoArray[i] = Arrays.copyOf(original[i], original[i].length);
-        }
-        return nuevoArray;
-    }
+
 
    /**
     * Plantilla de coordenadas para determinar as formas das pezas
     */
 
-   private static final int[][][] plantilla_de_coordenadas = new int[][][] {
+   public static final int[][][] plantilla_de_coordenadas = new int[][][] {
 
         // L
         { {-1,-1 }, { 0,-1 }, { 0, 0 }, { 0, 1 } },
@@ -69,19 +63,19 @@ public class PiezaFactory {
 
          switch (criteria) {
              case 0:
-                return new Pieza(copiarArray(tipoPiezas.L.coordenadas), tipoPiezas.L.tile);
+                return new Pieza((tipoPiezas.L.coordenadas), tipoPiezas.L.tile);
             case 1:
-               return new Pieza(copiarArray(tipoPiezas.L_Inverso.coordenadas), tipoPiezas.L_Inverso.tile);
+               return new Pieza((tipoPiezas.L_Inverso.coordenadas), tipoPiezas.L_Inverso.tile);
             case 2:
-               return new Pieza(copiarArray(tipoPiezas.S.coordenadas), tipoPiezas.S.tile);
+               return new Pieza((tipoPiezas.S.coordenadas), tipoPiezas.S.tile);
             case 3:
-                return new Pieza(copiarArray(tipoPiezas.Cuadrado.coordenadas), tipoPiezas.Cuadrado.tile);
+                return new Pieza((tipoPiezas.Cuadrado.coordenadas), tipoPiezas.Cuadrado.tile);
             case 4:
-               return new Pieza(copiarArray(tipoPiezas.Linea.coordenadas), tipoPiezas.Linea.tile);
+               return new Pieza((tipoPiezas.Linea.coordenadas), tipoPiezas.Linea.tile);
              case 5:
-                 return new Pieza(copiarArray(tipoPiezas.Z.coordenadas), tipoPiezas.Z.tile);
+                 return new Pieza((tipoPiezas.Z.coordenadas), tipoPiezas.Z.tile);
             case 6:
-               return new Pieza(copiarArray(tipoPiezas.T.coordenadas), tipoPiezas.T.tile);
+               return new Pieza((tipoPiezas.T.coordenadas), tipoPiezas.T.tile);
              default:
                  throw new Exception("valor no valido, el valor de la pieza debe estar entre 0 y 6");
         }
