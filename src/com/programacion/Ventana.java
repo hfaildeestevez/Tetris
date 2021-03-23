@@ -16,7 +16,6 @@ public class Ventana extends JFrame {
          */
 
         private Tablero tablero;
-
         private int delay;
         private int numFrames;
 
@@ -26,7 +25,7 @@ public class Ventana extends JFrame {
 
         public Ventana()
         {
-            setSize(220, 360);
+            setSize(180, 360);
             setDefaultCloseOperation(EXIT_ON_CLOSE);
 
             delay = 3;
@@ -36,9 +35,8 @@ public class Ventana extends JFrame {
             Panel panel = new Panel(tablero);
             add(panel);
 
-
             // Creamos el temporizador
-            Temporizador = new Timer(1000/15, new ActionListener(){
+            Temporizador = new Timer(1000/7, new ActionListener(){
                 public void actionPerformed(ActionEvent e) {
                     numFrames++;
                     if (numFrames%delay==0){

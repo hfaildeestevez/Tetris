@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="ya funciona esta mierda">
+    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Esto tambien funciona">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/programacion/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Panel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/programacion/Pieza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Pieza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programacion/PiezaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/PiezaFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/programacion/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programacion/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Ventana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,7 @@
       <workItem from="1616348521181" duration="15550000" />
       <workItem from="1616402788861" duration="4167000" />
       <workItem from="1616519189210" duration="3224000" />
-      <workItem from="1616526362887" duration="5648000" />
+      <workItem from="1616526362887" duration="6756000" />
     </task>
     <task id="LOCAL-00001" summary="Crear clase Tablero">
       <created>1615981376398</created>
@@ -181,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616362516484</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Funciona esto">
+      <created>1616532452210</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616532452210</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Esto tambien funciona">
+      <created>1616532508440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616532508440</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +235,9 @@
     <MESSAGE value="Seguir con Jpanel" />
     <MESSAGE value="Muchos cambios,ya no me cuerdo" />
     <MESSAGE value="ya funciona esta mierda" />
-    <option name="LAST_COMMIT_MESSAGE" value="ya funciona esta mierda" />
+    <MESSAGE value="Funciona esto" />
+    <MESSAGE value="Esto tambien funciona" />
+    <option name="LAST_COMMIT_MESSAGE" value="Esto tambien funciona" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

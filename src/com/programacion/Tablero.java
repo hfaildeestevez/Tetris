@@ -20,7 +20,7 @@ public class Tablero {
             generarNuevaPieza();
 
         } catch (Exception e) {
-            System.out.println("A vuelto a avidar un eeror");
+            System.out.println("A vuelto a haber un error");
         }
 
     }
@@ -44,9 +44,12 @@ public class Tablero {
         generarNuevaPieza();
     }
 
-
     private boolean colisionar (int x,int y){
-        return x> campo.length-1 || y>campo[0].length-1  || campo[x][y] !=null;
+        try{
+            return x> campo.length-1 || y>campo[0].length-1  || campo[x][y] !=null;
+        }catch(IndexOutOfBoundsException e){
+            return true;
+        }
     }
 
     private void comprobarLinea (){
@@ -115,7 +118,5 @@ public class Tablero {
             pieza.moverAbajo();
         }
     }
-
-
 }
 

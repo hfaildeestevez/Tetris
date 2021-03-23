@@ -26,7 +26,6 @@ public class Pieza {
             nuevaRotacion[i][1]= rotacion[i][0];
         }
         rotacion=nuevaRotacion;
-        System.out.println("rotado");
 
         for (int i = 0; i < coordenada.length; i++) {
             coordenada[i][0]=rotacion[i][0]+desplazamiento[0];
