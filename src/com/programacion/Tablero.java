@@ -3,7 +3,13 @@ package com.programacion;
 import java.util.Random;
 
 public class Tablero {
-
+    /**
+     * Declaramos o tableiro cos seguintes parametros
+     * @param puntuacion
+     * @param level
+     * @param delay
+     * ademais damoslle a funcion random
+     */
     Tile [][] campo;
     Pieza pieza;
     int puntuacion;
@@ -24,7 +30,10 @@ public class Tablero {
         }
 
     }
-
+    /**
+     * Chamamos ao metodo generarNuevaPieza e añadimoslle unha excepcion para que o limite sea un 6
+       xa que as nosas pezas van enumeradas do 0 ao 6
+     */
     private void generarNuevaPieza() {
         try {
             pieza = PiezaFactory.getPieza(generadorAleatorio.nextInt(6));
@@ -34,7 +43,9 @@ public class Tablero {
         pieza.moverDerecha();
 
     }
-
+    /**
+     * Chamamos ao metodo colocarPieza e facemos que un foreach recorra o array
+     */
     private void colocarPieza (){
         for (var coordenada: pieza.coordenada){
             int x=coordenada[0];
@@ -43,7 +54,9 @@ public class Tablero {
         }
         generarNuevaPieza();
     }
-
+    /**
+     * Chamamos ao metodo colisionar e aañdimoslle unha excepcion
+     */
     private boolean colisionar (int x,int y){
         try{
             return x> campo.length-1 || y>campo[0].length-1  || campo[x][y] !=null;
@@ -82,7 +95,9 @@ public class Tablero {
             //generarNuevaPieza();
         }
     }
-
+    /**
+     * Chamamos ao metodo colisionarPieza
+     */
     private boolean colisionarPieza(int desplazamientox, int desplazamientoy) {
         boolean colisiona = false;
         for (var coordenada:pieza.coordenada) {
@@ -91,19 +106,25 @@ public class Tablero {
         }
         return colisiona;
     }
-
+    /**
+     * Chamamos ao metodo moverPiezaDerecha
+     */
     public void moverPiezaDerecha(){
         if (!colisionarPieza(1,0)){
             pieza.moverDerecha();
         }
     }
-
+    /**
+     * Chamamos ao metodo moverPiezaIzquierda
+     */
     public void moverPiezaIzquierda(){
         if (!colisionarPieza(-1,0)){
             pieza.moverIzquierda();
         }
     }
-
+    /**
+     * Chamamos ao metodo RotarPieza
+     */
     public void rotarPieza(){
         pieza.rotar();
         if (colisionarPieza(0, 0)) {
@@ -112,7 +133,9 @@ public class Tablero {
             pieza.rotar();
         }
     }
-
+   /**
+ * Chamamos ao metodo moverabajo
+ */
     public void moverPiezaAbajo(){
         if (!colisionarPieza(0,1)){
             pieza.moverAbajo();

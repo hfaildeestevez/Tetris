@@ -10,7 +10,10 @@ import java.io.File;
 import java.io.IOException;
 
 public class Panel extends JPanel {
-
+    /**
+     * Implementamos o JPanel
+     * Implementamos as funcions Key para asignar as teclas que realizaran os nosos movementos
+     */
     Tablero tablero;
 
     public Panel(Tablero tablero) {
@@ -36,7 +39,9 @@ public class Panel extends JPanel {
             }
         });
     }
-
+    /**
+     * Añadimoslle os graficos asi como o color de fondo do tableiro
+     */
     public void paint(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
         g2d.setColor(Color.BLACK);

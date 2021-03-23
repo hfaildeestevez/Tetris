@@ -4,7 +4,9 @@ import java.awt.*;
 import java.util.Arrays;
 
 public class PiezaFactory {
-
+    /**
+     * Empregamos a funcion enum para añadirlle valores e cor as constantes, neste caso as nosas pezas
+     */
     enum tipoPiezas {
        L (plantilla_de_coordenadas[0], new Tile(new Color(20, 43, 147))),
        L_Inverso (plantilla_de_coordenadas[1], new Tile(new Color(194, 6, 9))),
@@ -58,7 +60,7 @@ public class PiezaFactory {
     public static Pieza getPieza(int criteria) throws Exception {
         //Aqui chorei moito
         /**
-         * Switch para darlle forma as pezas
+         * Switch para chamar as pezas
          */
 
          switch (criteria) {

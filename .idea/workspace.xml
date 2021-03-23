@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Esto tambien funciona">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/programacion/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Panel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/programacion/Pieza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Pieza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programacion/PiezaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/PiezaFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/programacion/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Tablero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programacion/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programacion/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,17 +81,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
