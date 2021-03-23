@@ -5,8 +5,9 @@ import java.util.Arrays;
 
 public class Pieza {
 
-
-    //Declaramos matriz
+    /**
+     * chamamos a matriz e a clase tile
+     */
     int [][] coordenada;
     Tile tile;
     int [][] rotacion;
@@ -17,7 +18,9 @@ public class Pieza {
         this.rotacion = copiarArray(coordenada);
 
     }
-
+    /**
+     * Implementamos o metodo rotar
+     */
     public void rotar(){
         int [] desplazamiento=conseguirDesplazamiento();
         int[][] nuevaRotacion = new int[rotacion.length][rotacion[0].length];
@@ -40,26 +43,34 @@ public class Pieza {
         }
         return nuevoArray;
     }
-
+    /**
+     * Implementamos o metodo conseguir desplazamiento
+     */
     private int[] conseguirDesplazamiento(){
         int x = coordenada[0][0]-rotacion[0][0];
         int y = coordenada[0][1]-rotacion[0][1];
         int[] retorno={x,y};
         return retorno;
     }
-
+    /**
+     * Implementamos o metodo para que as pezas vaian caindo cara abaixo no tableiro
+     */
     public void moverAbajo(){
         for (var coordenada:coordenada){
             coordenada[1]++;
         }
     }
-
+    /**
+     * Implementamos o metodo para mover as pezas a dereita
+     */
     public void moverDerecha(){
         for (var coordenada:coordenada){
             coordenada[0]++;
         }
     }
-
+    /**
+     * Implementamos o metodo para mover as pezas a esquerda
+     */
     public void moverIzquierda(){
         for (var coordenada:coordenada){
             coordenada[0]--;
