@@ -15,10 +15,12 @@ public class Panel extends JPanel {
 
     public Panel(Tablero tablero) {
         this.tablero = tablero;
+        this.setFocusable(true);
+        this.requestFocusInWindow();
 
         addKeyListener(new KeyAdapter() {
             public void keyPressed(KeyEvent e) {
-
+                System.out.println("tecla pulsada");
                     switch (e.getKeyCode()) {
                         case KeyEvent.VK_LEFT:
                             tablero.moverPiezaIzquierda();
@@ -27,6 +29,7 @@ public class Panel extends JPanel {
 
                         case KeyEvent.VK_RIGHT:
                             tablero.moverPiezaDerecha();
+                            System.out.println("mover pieza derecha");
                             break;
 
                         case KeyEvent.VK_UP:
