@@ -20,16 +20,13 @@ public class Panel extends JPanel {
 
         addKeyListener(new KeyAdapter() {
             public void keyPressed(KeyEvent e) {
-                System.out.println("tecla pulsada");
                     switch (e.getKeyCode()) {
                         case KeyEvent.VK_LEFT:
                             tablero.moverPiezaIzquierda();
-                            System.out.println("mover pieza izquierda");
                             break;
 
                         case KeyEvent.VK_RIGHT:
                             tablero.moverPiezaDerecha();
-                            System.out.println("mover pieza derecha");
                             break;
 
                         case KeyEvent.VK_UP:
@@ -60,9 +57,6 @@ public class Panel extends JPanel {
             g2d.setColor(tablero.pieza.tile.color);
             g2d.draw(new Rectangle(coordenada[0]*16,coordenada[1]*16,16,16));
         }
-
     }
-
-
 
 }

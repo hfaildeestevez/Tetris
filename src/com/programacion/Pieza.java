@@ -1,5 +1,6 @@
 package com.programacion;
 
+
 import java.util.Arrays;
 
 public class Pieza {
@@ -19,15 +20,17 @@ public class Pieza {
 
     public void rotar(){
         int [] desplazamiento=conseguirDesplazamiento();
-        for (int i = 0; i < this.rotacion.length ; i++) {
-            rotacion[i][0]=-this.rotacion[i][1];
-            rotacion[i][1]= this.rotacion[i][0];
+        int[][] nuevaRotacion = new int[rotacion.length][rotacion[0].length];
+        for (int i = 0; i < rotacion.length ; i++) {
+            nuevaRotacion[i][0]=-rotacion[i][1];
+            nuevaRotacion[i][1]= rotacion[i][0];
         }
-        for (int i = 0; i < rotacion.length; i++) {
+        rotacion=nuevaRotacion;
+
+        for (int i = 0; i < coordenada.length; i++) {
             coordenada[i][0]=rotacion[i][0]+desplazamiento[0];
             coordenada[i][1]=rotacion[i][1]+desplazamiento[1];
         }
-        System.out.println("ihiñjdbdlhfghil");
     }
 
     public static int[][] copiarArray(int[][] original) {
@@ -64,5 +67,3 @@ public class Pieza {
     }
 
 }
-
-
