@@ -75,7 +75,7 @@ public class Tablero {
         }
         else{
             colocarPieza();
-            generarNuevaPieza();
+            //generarNuevaPieza();
         }
     }
 
@@ -87,4 +87,32 @@ public class Tablero {
         }
         return colisiona;
     }
+
+    public void moverPiezaDerecha(){
+        if (!colisionarPieza(1,0)){
+            pieza.moverDerecha();
+        }
+    }
+
+    public void moverPiezaIzquierda(){
+        if (!colisionarPieza(-1,0)){
+            pieza.moverIzquierda();
+        }
+    }
+
+    public void rotarPieza(){
+        pieza.rotar();
+        if (colisionarPieza(0, 0)) {
+            pieza.rotar();
+            pieza.rotar();
+            pieza.rotar();
+        }
+    }
+
+    public void moverPiezaAbajo(){
+        if (!colisionarPieza(0,1)){
+            pieza.moverAbajo();
+        }
+    }
 }
+

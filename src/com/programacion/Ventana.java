@@ -26,7 +26,7 @@ public class Ventana extends JFrame {
 
         public Ventana()
         {
-            setSize(640, 480);
+            setSize(220, 360);
             setDefaultCloseOperation(EXIT_ON_CLOSE);
 
             delay = 3;
