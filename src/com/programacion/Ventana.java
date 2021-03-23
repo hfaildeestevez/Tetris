@@ -1,5 +1,6 @@
 package com.programacion;
 
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -14,7 +15,6 @@ public class Ventana extends JFrame {
         /**
          * Donde discurre toda la logica del juego
          */
-
         private Tablero tablero;
         private int delay;
         private int numFrames;
@@ -22,9 +22,7 @@ public class Ventana extends JFrame {
         /**
          * Constructor
          */
-
-        public Ventana()
-        {
+        public Ventana() {
             setSize(180, 360);
             setDefaultCloseOperation(EXIT_ON_CLOSE);
 
@@ -43,13 +41,11 @@ public class Ventana extends JFrame {
                     tablero.update();
                     }
                     panel.repaint();
-
                 }
             });
 
             // Iniciamos el juego
             Temporizador.start();
         }
-
-    }
+}
 

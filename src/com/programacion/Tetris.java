@@ -1,6 +1,5 @@
 package com.programacion;
 
-import javax.swing.*;
 
 public class Tetris {
 

@@ -1,5 +1,6 @@
 package com.programacion;
 
+
 import java.util.Random;
 
 public class Tablero {
@@ -22,7 +23,6 @@ public class Tablero {
         } catch (Exception e) {
             System.out.println("A vuelto a haber un error");
         }
-
     }
 
     private void generarNuevaPieza() {
@@ -32,7 +32,6 @@ public class Tablero {
             System.out.println("Un error sin mas");
         }
         pieza.moverDerecha();
-
     }
 
     private void colocarPieza (){
@@ -79,7 +78,6 @@ public class Tablero {
         else{
             colocarPieza();
             comprobarLinea();
-            //generarNuevaPieza();
         }
     }
 
