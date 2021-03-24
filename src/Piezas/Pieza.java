@@ -1,4 +1,4 @@
-package com.programacion;
+package Piezas;
 
 
 import java.util.Arrays;
@@ -8,8 +8,8 @@ public class Pieza {
     /**
      * chamamos a matriz e a clase tile
      */
-    int [][] coordenada;
-    Tile tile;
+    public int [][] coordenada;
+    public Tile tile;
     int [][] rotacion;
 
     public Pieza(int[][] coordenada,Tile tile) {

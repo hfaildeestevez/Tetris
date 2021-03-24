@@ -1,4 +1,8 @@
-package com.programacion;
+package com.Logica;
+
+import Piezas.Pieza;
+import Piezas.PiezaFactory;
+import Piezas.Tile;
 
 import javax.swing.*;
 import java.io.BufferedWriter;
@@ -9,8 +13,8 @@ import java.util.Random;
 
 public class Tablero {
 
-    Tile[][] campo;
-    Pieza pieza;
+    public Tile[][] campo;
+    public Pieza pieza;
     int puntuacion;
     int level;
     int delay;
