@@ -1,4 +1,4 @@
-package com.programacion;
+package Piezas;
 
 
 import java.awt.*;

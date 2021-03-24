@@ -1,4 +1,6 @@
-package com.programacion;
+package Interfaz;
+
+import com.Logica.Tablero;
 
 import javax.swing.*;
 import java.awt.*;

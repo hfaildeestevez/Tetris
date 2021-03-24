@@ -1,5 +1,7 @@
-package com.programacion;
+package com.Logica;
 
+
+import Interfaz.Ventana;
 
 public class Tetris {
 
