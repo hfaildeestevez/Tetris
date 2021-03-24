@@ -1,7 +1,7 @@
 package com.programacion;
 
+
 import java.awt.*;
-import java.util.Arrays;
 
 public class PiezaFactory {
     /**
@@ -21,11 +21,8 @@ public class PiezaFactory {
        tipoPiezas(int [][] coordenadas, Tile tile ) {
            this.coordenadas=coordenadas;
            this.tile=tile;
-
        }
    }
-
-
 
    /**
     * Plantilla de coordenadas para determinar as formas das pezas
@@ -55,10 +52,8 @@ public class PiezaFactory {
         { { 0,-1 }, { 0, 0 }, {-1, 0 }, {-1, 1 } }
     };
 
-
-
     public static Pieza getPieza(int criteria) throws Exception {
-        //Aqui chorei moito
+
         /**
          * Switch para chamar as pezas
          */

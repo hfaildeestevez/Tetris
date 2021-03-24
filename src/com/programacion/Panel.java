@@ -1,13 +1,9 @@
 package com.programacion;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 
 public class Panel extends JPanel {
     /**
@@ -45,9 +41,9 @@ public class Panel extends JPanel {
     public void paint(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
         g2d.setColor(Color.BLACK);
-        Rectangle rect = new Rectangle(0,0,1000,1000);
-        g2d.fill(rect);
-        g2d.draw(rect);
+        Rectangle background = new Rectangle(0,0,1000,1000);
+        g2d.fill(background);
+        g2d.draw(background);
 
         for (int i=0;i<tablero.campo.length;i++){
             for (int j=0;j <tablero.campo[0].length;j++){
@@ -55,13 +51,20 @@ public class Panel extends JPanel {
                    continue;
                 }
                 g2d.setColor(tablero.campo[i][j].color);
-                g2d.draw(new Rectangle(i*16,j*16,16,16));
+                dibujarRectangulo(i, j, g2d);
             }
         }
         for (var coordenada:tablero.pieza.coordenada){
             g2d.setColor(tablero.pieza.tile.color);
-            g2d.draw(new Rectangle(coordenada[0]*16,coordenada[1]*16,16,16));
+            dibujarRectangulo(coordenada[0], coordenada[1], g2d);
         }
+    }
+
+    private void dibujarRectangulo(int i, int j, Graphics2D g2d) {
+        Rectangle rect = new Rectangle(i*16,j*16,16,16);
+        g2d.fill(rect);
+        g2d.setColor(tablero.pieza.tile.color.darker());
+        g2d.draw(rect);
     }
 
 }

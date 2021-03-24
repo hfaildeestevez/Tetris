@@ -1,4 +1,6 @@
 package com.programacion;
+
+
 import java.awt.*;
 
 public class Tile {

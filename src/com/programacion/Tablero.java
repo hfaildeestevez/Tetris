@@ -1,5 +1,10 @@
 package com.programacion;
 
+import javax.swing.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Random;
 
 public class Tablero {
@@ -37,6 +42,9 @@ public class Tablero {
         for (var coordenada : pieza.coordenada) {
             int x = coordenada[0];
             int y = coordenada[1];
+            if (y < 0) {
+                partidaFinalizada();
+            }
             campo[x][y] = pieza.tile;
         }
         generarNuevaPieza();
@@ -73,6 +81,7 @@ public class Tablero {
             System.out.println(String.format("Fila %d movida a %d", i+1,i));
         }
         campo = transposeArray(nuevoCampo);
+        puntuacion++;
     }
 
     public void update() {
@@ -149,5 +158,30 @@ public class Tablero {
         }
 
         return tmp;
+    }
+
+    private void partidaFinalizada() {
+        JOptionPane.showMessageDialog(null, "GAME OVER \n \n Tu puntuación es:" + puntuacion);
+        //pedir nombre
+        String nombre = JOptionPane.showInputDialog(null, "Cual es tu nombre?");
+        //guardar nombre a un fichero
+        File ficheroRanking =new File("puntos.txt");
+        try {
+
+            if (!ficheroRanking.exists()) {
+                ficheroRanking.createNewFile();
+            }
+            FileWriter fw = new FileWriter(ficheroRanking,true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.append(nombre+" "+puntuacion+ "\n");
+            bw.close();
+            System.out.println("Puntuación escrita");
+        } catch (IOException ex) {
+            System.out.println("Error al escribir la puntuación en un fichero");
+        }
+        System.exit(0);
+
+
+
     }
 }
