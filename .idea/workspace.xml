@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Puntuacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programacion/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Panel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programacion/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Tablero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programacion/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programacion/Ventana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tetris" />
         <item itemvalue="Application.Tetris" />
         <item itemvalue="Application.Tetris" />
         <item itemvalue="Application.Tetris" />
