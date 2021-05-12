@@ -1,0 +1,3 @@
+[submodule "LibreriaCOD"]
+	path = LibreriaCOD
+	url = https://github.com/hfaildeestevez/LibreriaCOD.git
