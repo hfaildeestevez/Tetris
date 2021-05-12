@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../:\Tetris\.idea/dataSources/
+/../../../../../../:\Users\Pablo\IdeaProjects\Tetris\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

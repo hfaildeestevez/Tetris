@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Puntuacion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="Pablo" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Pablo\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7319.50\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1psjtmp9DFpjfZ1E4pjDkbKLIwp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programacion.Tetris" />
+      <module name="Tetris" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tetris" />
+        <item itemvalue="Application.Tetris" />
+        <item itemvalue="Application.Tetris" />
+        <item itemvalue="Application.Tetris" />
+        <item itemvalue="Application.Tetris" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Colocar pieza y colisionar pieza" />
+      <created>1615978909372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615978909372</updated>
+      <workItem from="1615978913009" duration="5488000" />
+      <workItem from="1616348521181" duration="15550000" />
+      <workItem from="1616402788861" duration="4167000" />
+      <workItem from="1616519189210" duration="3224000" />
+      <workItem from="1616526362887" duration="6756000" />
+    </task>
+    <task id="LOCAL-00001" summary="Crear clase Tablero">
+      <created>1615981376398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615981376399</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit">
+      <created>1615981481146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615981481146</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Actualizar Tablero">
+      <created>1615987102607</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615987102607</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Colocar pieza y colisionar pieza">
+      <created>1615989990937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615989990937</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Colocar pieza y colisionar pieza">
+      <created>1615990150580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615990150580</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Crear constructor y metodos moverPosiciones y comprobarLinea">
+      <created>1616351950238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616351950238</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Crear Jpanel">
+      <created>1616353802124</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616353802124</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Seguir con Jpanel">
+      <created>1616355700103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616355700103</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Muchos cambios,ya no me cuerdo">
+      <created>1616362516484</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616362516484</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Funciona esto">
+      <created>1616532452210</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616532452210</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Esto tambien funciona">
+      <created>1616532508440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616532508440</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Actualizacion">
+      <created>1616541775176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616541775176</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completar filas">
+      <created>1616542019442</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616542019442</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Puntuacion">
+      <created>1616542153835</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616542153835</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Crear clase Tablero" />
+    <MESSAGE value="Commit" />
+    <MESSAGE value="Actualizar Tablero" />
+    <MESSAGE value="Colocar pieza y colisionar pieza" />
+    <MESSAGE value="Crear constructor y metodos moverPosiciones y comprobarLinea" />
+    <MESSAGE value="Crear Jpanel" />
+    <MESSAGE value="Seguir con Jpanel" />
+    <MESSAGE value="Muchos cambios,ya no me cuerdo" />
+    <MESSAGE value="ya funciona esta mierda" />
+    <MESSAGE value="Funciona esto" />
+    <MESSAGE value="Esto tambien funciona" />
+    <MESSAGE value="Actualizacion" />
+    <MESSAGE value="Completar filas" />
+    <MESSAGE value="Puntuacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puntuacion" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="coordenada" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
