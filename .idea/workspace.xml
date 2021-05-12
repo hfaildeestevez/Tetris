@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Puntuacion">
+    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="cambio para squash">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Piezas/LectorPuntucion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Piezas/LectorPuntucion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Logica/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Logica/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Logica/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Logica/Tetris.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +70,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hfe19\Program\Tetris\.idea\shelf" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.programacion.Tetris" />
@@ -115,6 +123,7 @@
       <workItem from="1616402788861" duration="4167000" />
       <workItem from="1616519189210" duration="3224000" />
       <workItem from="1616526362887" duration="6756000" />
+      <workItem from="1620832465098" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="Crear clase Tablero">
       <created>1615981376398</created>
