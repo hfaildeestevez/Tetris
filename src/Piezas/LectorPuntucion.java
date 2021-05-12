@@ -1,4 +1,4 @@
-package com.programacion;
+package Piezas;
 
 import javax.swing.*;
 import java.io.BufferedReader;
@@ -7,7 +7,9 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class LectorPuntucion {
-
+    /**
+     * metodo leer para que nos lea la puntuacion al perder la partida y la pueda guardar en un fichero .txt
+     */
     public static void leer() {
         File puntuacion = new File("puntos.txt");
         FileReader fr;

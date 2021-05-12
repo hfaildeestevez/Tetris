@@ -12,7 +12,10 @@ import java.io.IOException;
 import java.util.Random;
 
 public class Tablero {
-
+    /**
+     * Aqui instanciamos la tile y llamamos ala  pieza
+     *Usamos un generador aleatorio para que nos vaya dando las piezas
+     */
     public Tile[][] campo;
     public Pieza pieza;
     int puntuacion;
@@ -33,6 +36,9 @@ public class Tablero {
         }
     }
 
+    /**
+     * Metodo generar nueva pieza que lo sacara de la clase PiezaFactory
+     */
     private void generarNuevaPieza() {
         try {
             pieza = PiezaFactory.getPieza(generadorAleatorio.nextInt(6));
@@ -42,6 +48,9 @@ public class Tablero {
         pieza.moverDerecha();
     }
 
+    /**
+     * Metodo colocar pieza para que la pieza se coloque en el sitio que queremos
+     */
     private void colocarPieza() {
         for (var coordenada : pieza.coordenada) {
             int x = coordenada[0];
@@ -54,6 +63,9 @@ public class Tablero {
         generarNuevaPieza();
     }
 
+    /**
+     *Metodo colisionar para detectar si hay colision entre piezas y evitar que esta se salga del tablero
+     */
     private boolean colisionar(int x, int y) {
         try {
             return x > campo.length - 1 || y > campo[0].length - 1 || campo[x][y] != null;
@@ -62,6 +74,9 @@ public class Tablero {
         }
     }
 
+    /**
+     * Con este metpdp recorre el tablero y en caso de una linea este llena la elimina y aumenta un punto
+     */
     private void comprobarLinea() {
         boolean completa;
         for (int j = 0; j < campo[0].length; j++) {//numero de fila (segunda coordenada)
@@ -78,6 +93,9 @@ public class Tablero {
         }
     }
 
+    /**
+     *Tras eliminar una fila este metodo mueve la fila superior una posicion abajo
+     */
     private void moverPosiciones(int fila) {
         Tile[][] nuevoCampo = transposeArray(campo);
         for (int i =fila-1; i >0; i--) {
@@ -88,6 +106,9 @@ public class Tablero {
         puntuacion++;
     }
 
+    /**
+     * Este metodo actualiza el tablero tras mover la fila
+     */
     public void update() {
         if (!colisionarPieza(0, 1)) {
             pieza.moverAbajo();
@@ -149,6 +170,9 @@ public class Tablero {
         return transposedArray;
     }
 
+    /**
+     * Delimitamos el campo sobre el que se desarrollara el juego
+     */
     public  String printCampo() {
         int m = campo.length;
         int n = campo[0].length;
@@ -164,6 +188,9 @@ public class Tablero {
         return tmp;
     }
 
+    /**
+     * Con este metodo finalizamos la partida tras llenar al menos una fila del tablero
+     */
     private void partidaFinalizada() {
         JOptionPane.showMessageDialog(null, "GAME OVER \n \n Tu puntuación es:" + puntuacion);
         //pedir nombre
